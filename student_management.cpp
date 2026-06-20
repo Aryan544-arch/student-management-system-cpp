@@ -4,6 +4,8 @@
 #include <cctype>
 #include <limits>
 
+
+std::vector<StudentRecord> students;
 std::string normalizeName(std::string n)
 {
     if (n.empty())

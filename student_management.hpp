@@ -1,5 +1,5 @@
-#ifndef FILE_HPP
-#define FILE_HPP
+#ifndef STUDENT_MANAGEMENT_HPP
+#define STUDENT_MANAGEMENT_HPP
 
 #include <iostream>
 #include <vector>
@@ -39,7 +39,7 @@ public:
     }
 };
 
-std::vector<StudentRecord> students;
+extern std::vector<StudentRecord> students;
 std::string normalizeName(std::string);
 void displayMainMenu();
 void addStudent();
